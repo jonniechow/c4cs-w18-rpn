@@ -34,5 +34,5 @@ class TestBasics(unittest.TestCase):
         result = rpn.calculate("5 2 %")
         self.assertEqual(1, result)
     def test_mod3(self):
-        result = rpn.calculate("1 5 %")
-        self.assertEqual(5, result)
+        result = rpn.calculate("9 5 %")
+        self.assertEqual(4, result)
