@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import operator
+import readline
 
 
 operators = {
@@ -9,6 +10,7 @@ operators = {
     '*': operator.mul,
     '/': operator.truediv,
     '^': operator.pow,
+    '%': operator.mod,
 }
 
 def calculate(myarg):
