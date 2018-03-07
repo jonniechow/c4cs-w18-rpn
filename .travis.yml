@@ -2,6 +2,7 @@ language: python
 python:
  - "3.5"
 script:
+ - pip install coveralls
  - python3 -m unittest
  - coverage run test_rpn.py
  - coveralls
