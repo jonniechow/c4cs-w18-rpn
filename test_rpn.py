@@ -27,12 +27,3 @@ class TestBasics(unittest.TestCase):
     def test_car4(self):
         result = rpn.calculate("6 2 ^")
         self.assertEqual(36, result)
-    def test_mod(self):
-        result = rpn.calculate("6 2 %")
-        self.assertEqual(0, result)
-    def test_mod2(self):
-        result = rpn.calculate("5 2 %")
-        self.assertEqual(1, result)
-    def test_mod3(self):
-        result = rpn.calculate("9 5 %")
-        self.assertEqual(4, result)
